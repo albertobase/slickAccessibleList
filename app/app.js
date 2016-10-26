@@ -70,51 +70,6 @@ jQuery( document ).ready(function(){
                     ]
                 });
             });
-        },
-
-        carousel2 = function(){
-            var $flight_pagination = jQuery('.carousel_slick');
-            $flight_pagination.slick({
-                slide: 'li',
-                dots: false,
-                infinite: false,
-                arrows: true,
-                speed: 300,
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                swipeToSlide: true,
-                //variableWidth: true,
-                responsive: [
-                    {
-                        breakpoint: 10000,
-                        settings: {
-                            slidesToShow: 5,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 1239,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 1000,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 767,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
         };
       
         // Public API
